@@ -283,6 +283,7 @@ blockquote {
 }
 
 .section.margin-bottom.footer-margin.remove-padding {
+  margin-bottom: 0px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -290,6 +291,29 @@ blockquote {
 .section.bottom-padding-40.add-top-padding {
   padding-top: 140px;
   padding-bottom: 40px;
+}
+
+.section.bottom-padding-40.add-top-padding.middle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.section.margin-top {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.section.margin-top.add-top-padding {
+  padding-top: 140px;
 }
 
 .section.centre-align._100vh {
@@ -1151,6 +1175,26 @@ blockquote {
 
 .page-wrapper._100vh {
   height: 100vh;
+}
+
+.page-wrapper._100vh.middle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .price-table-container {
@@ -3334,6 +3378,10 @@ blockquote {
 
 .image-10 {
   margin-right: 10px;
+}
+
+.div-block-52 {
+  width: 100%;
 }
 
 @media screen and (max-width: 991px) {
