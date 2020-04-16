@@ -429,6 +429,7 @@ h1 {
   position: static;
   overflow: visible;
   width: 100%;
+  height: 400px;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -1197,6 +1198,7 @@ h1 {
     grid-template-rows: minmax(auto, 1fr) auto;
   }
   .navmenu {
+    top: 0px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1353,7 +1355,7 @@ h1 {
     grid-template-rows: minmax(auto, auto) minmax(auto, auto);
   }
   .grid-4 {
-    justify-items: stretch;
+    justify-items: center;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -1443,7 +1445,7 @@ h1 {
   .navmenu {
     position: absolute;
     left: auto;
-    top: auto;
+    top: 0px;
     right: auto;
     bottom: auto;
     display: -webkit-box;
@@ -1505,6 +1507,7 @@ h1 {
   }
   .herosection {
     height: auto;
+    padding-top: 90px;
   }
   .grid-2 {
     -ms-grid-columns: 1fr;
@@ -1652,7 +1655,7 @@ h1 {
   .navmenu {
     position: absolute;
     left: auto;
-    top: auto;
+    top: 0px;
     right: auto;
     bottom: auto;
     z-index: auto;
@@ -1851,7 +1854,19 @@ h1 {
   .heading-6 {
     font-size: 32px;
   }
+  .div-block-10 {
+    width: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
   .grid-3 {
+    justify-items: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
     grid-row-gap: 0px;
     -ms-grid-columns: minmax(auto, auto);
     grid-template-columns: minmax(auto, auto);
@@ -1859,16 +1874,24 @@ h1 {
     grid-template-rows: minmax(auto, auto) minmax(auto, auto);
   }
   .grid-4 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     justify-items: center;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
     grid-row-gap: 5px;
-    -ms-grid-columns: minmax(auto, auto) minmax(auto, auto);
-    grid-template-columns: minmax(auto, auto) minmax(auto, auto);
-    -ms-grid-rows: minmax(auto, auto) minmax(auto, auto) minmax(auto, auto);
-    grid-template-rows: minmax(auto, auto) minmax(auto, auto) minmax(auto, auto);
+    -ms-grid-columns: minmax(auto, auto);
+    grid-template-columns: minmax(auto, auto);
+    -ms-grid-rows: minmax(auto, auto) minmax(auto, auto) minmax(auto, auto) auto auto auto;
+    grid-template-rows: minmax(auto, auto) minmax(auto, auto) minmax(auto, auto) auto auto auto;
+    text-align: left;
   }
   .div-block-11 {
     padding-top: 10px;
@@ -1883,6 +1906,7 @@ h1 {
     padding-bottom: 10px;
   }
   .div-block-14 {
+    width: auto;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -1895,8 +1919,24 @@ h1 {
     padding-bottom: 10px;
   }
   .div-block-17 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     margin-top: 10px;
     margin-bottom: 10px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: left;
   }
   .contact-section {
     padding-top: 90px;
@@ -1913,6 +1953,16 @@ h1 {
   .commng-section.pink {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+  .div-block-18 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
 
@@ -1934,6 +1984,14 @@ h1 {
 
 @media screen and (max-width: 991px) {
   #w-node-0b733c6943d7-46fb0c8d {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+  #w-node-7a83823d90e6-cddb692c {
     -ms-grid-column-align: center;
     justify-self: center;
     -webkit-align-self: center;
@@ -1966,6 +2024,22 @@ h1 {
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
+  }
+  #w-node-7a83823d90e6-cddb692c {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+  #w-node-7a83823d90eb-cddb692c {
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+  #w-node-7a83823d90f7-cddb692c {
+    -ms-grid-column-align: center;
+    justify-self: center;
   }
 }
 
