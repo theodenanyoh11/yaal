@@ -1252,6 +1252,8 @@ h1 {
   }
   .herosection {
     height: auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
   }
   .heading-3 {
     margin-top: 10px;
@@ -1825,6 +1827,9 @@ h1 {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  .heading-3 {
+    font-size: 18px;
+  }
   .div-block-5 {
     -webkit-box-align: stretch;
     -webkit-align-items: stretch;
@@ -1887,10 +1892,10 @@ h1 {
     -ms-flex-line-pack: center;
     align-content: center;
     grid-row-gap: 5px;
-    -ms-grid-columns: minmax(auto, auto);
-    grid-template-columns: minmax(auto, auto);
-    -ms-grid-rows: minmax(auto, auto) minmax(auto, auto) minmax(auto, auto) auto auto auto;
-    grid-template-rows: minmax(auto, auto) minmax(auto, auto) minmax(auto, auto) auto auto auto;
+    -ms-grid-columns: minmax(auto, auto) 1fr;
+    grid-template-columns: minmax(auto, auto) 1fr;
+    -ms-grid-rows: minmax(auto, auto) minmax(auto, auto) minmax(auto, auto);
+    grid-template-rows: minmax(auto, auto) minmax(auto, auto) minmax(auto, auto);
     text-align: left;
   }
   .div-block-11 {
