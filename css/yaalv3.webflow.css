@@ -612,11 +612,11 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  height: 60vh;
+  height: 90vh;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
