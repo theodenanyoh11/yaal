@@ -860,7 +860,7 @@ h1 {
 }
 
 .div-block-9 {
-  display: none;
+  display: block;
 }
 
 .heading-7 {
@@ -1102,6 +1102,10 @@ h1 {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: rgba(255, 111, 11, 0.06);
+}
+
+.link-5 {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 991px) {
