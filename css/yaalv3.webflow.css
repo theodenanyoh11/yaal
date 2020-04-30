@@ -612,7 +612,7 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  height: 90vh;
+  height: auto;
   margin-right: auto;
   margin-left: auto;
   padding-top: 60px;
@@ -1161,6 +1161,9 @@ h1 {
     -ms-flex-preferred-size: 25%;
     flex-basis: 25%;
   }
+  .section {
+    height: auto;
+  }
   .nav-link {
     display: block;
     text-align: center;
@@ -1258,6 +1261,9 @@ h1 {
     height: auto;
     padding-top: 90px;
     padding-bottom: 90px;
+  }
+  .featuredepisodesection.pink {
+    padding-top: 90px;
   }
   .heading-3 {
     margin-top: 10px;
@@ -1399,6 +1405,9 @@ h1 {
     -webkit-flex-basis: 50%;
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
+  }
+  .section {
+    padding-top: 90px;
   }
   .sticky-nav {
     position: relative;
@@ -1557,7 +1566,7 @@ h1 {
     flex: 0 0 100%;
   }
   .section {
-    padding-top: 20px;
+    padding-top: 100px;
     padding-bottom: 20px;
   }
   .section.pink {
@@ -1820,7 +1829,7 @@ h1 {
     padding-bottom: 20px;
   }
   .featuredepisodesection.pink {
-    padding-top: 20px;
+    padding-top: 120px;
     padding-bottom: 20px;
   }
   .recentepisodessection {
